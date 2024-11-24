@@ -1,0 +1,8 @@
+[submodule "libs/ft_printf"]
+	path = libs/ft_printf
+	url = https://github.com/Tuncayarda/ft_printf.git
+	branch = main
+[submodule "libs/libft"]
+	path = libs/libft
+	url = https://github.com/Tuncayarda/Libft.git
+	branch = main
