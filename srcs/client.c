@@ -6,7 +6,7 @@
 /*   By: tuaydin <tuaydin@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 20:27:54 by tuaydin           #+#    #+#             */
-/*   Updated: 2024/11/27 18:14:14 by tuaydin          ###   ########.fr       */
+/*   Updated: 2024/11/27 20:04:46 by tuaydin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,10 @@ int	g_received;
 void	confirm(int signal)
 {
 	if (signal == SIGUSR1)
+	{
 		g_received = 1;
+		ft_printf("acknowledge\n");
+	}
 }
 
 void	send_char(int pid, char c)
@@ -44,7 +47,11 @@ int	main(int an, char *args[])
 	int	pid;
 
 	if (an != 3)
+	{
+		ft_printf("%sInvalid arg entry!!!\n", RED_FONT);
 		return (0);
+	}
+		
 	i = 0;
 	pid = ft_atoi(args[1]);
 	signal(SIGUSR1, confirm);

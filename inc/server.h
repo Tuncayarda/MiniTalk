@@ -6,7 +6,7 @@
 /*   By: tuaydin <tuaydin@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 18:16:30 by tuaydin           #+#    #+#             */
-/*   Updated: 2024/11/27 17:59:19 by tuaydin          ###   ########.fr       */
+/*   Updated: 2024/11/27 20:25:31 by tuaydin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,5 @@
 # include "libft.h"
 # include <signal.h>
 # include <sys/types.h>
-# define POSIX_C_SOURCE 208009L
-
-typedef struct s_bits
-{
-	char		c;
-	int			count;
-}				t_bits;
 
 #endif

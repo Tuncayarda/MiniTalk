@@ -1,4 +1,4 @@
-CC = cc
+CC = cc -std=gnu99
 CFLAGS = -Wall -Wextra -Werror
 LIBFT = libs/libft/libft.a
 PRINTF = libs/ft_printf/libftprintf.a
