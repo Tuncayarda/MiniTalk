@@ -6,7 +6,7 @@
 /*   By: tuaydin <tuaydin@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 20:27:50 by tuaydin           #+#    #+#             */
-/*   Updated: 2024/11/27 20:54:42 by tuaydin          ###   ########.fr       */
+/*   Updated: 2024/11/29 13:57:35 by tuaydin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	g_count;
 
 void	handle(int signal, siginfo_t *info, void *context)
 {
-	static char c;
+	static char	c;
 
 	(void)context;
 	c = c << 1;
