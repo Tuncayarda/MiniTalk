@@ -94,11 +94,3 @@ The server terminal will receive and print the message character by character.
 ## Contributing
 
 Feel free to fork the repository and submit pull requests. Feedback, suggestions, and contributions are always welcome!
-
-## License
-
-This project is open-source. If a license file is not specified, it is assumed to be for educational and personal use only.
-
-## Author
-
-- [Tuncayarda](https://github.com/Tuncayarda)
