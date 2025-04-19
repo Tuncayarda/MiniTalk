@@ -102,4 +102,3 @@ This project is open-source. If a license file is not specified, it is assumed t
 ## Author
 
 - [Tuncayarda](https://github.com/Tuncayarda)
-```
