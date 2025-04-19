@@ -103,7 +103,3 @@ This project is open-source. If a license file is not specified, it is assumed t
 
 - [Tuncayarda](https://github.com/Tuncayarda)
 ```
-
----
-
-Let me know if you want to include any diagrams, GIFs, or perhaps add a section about known limitations or possible improvements!
